@@ -1,0 +1,12 @@
+body{
+    max-width: 90pc;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    scroll-behavior: smooth;
+    display: block;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #31373d;
+    background: #gray;
+}

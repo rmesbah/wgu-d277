@@ -6,62 +6,51 @@ body{
     display: block;
     line-height: 1.5;
     background-color: ghostwhite;
+    font-family: 'Roboto', sans-serif;
 }
+
+/* Navbar Styling */
+
 nav {
-    margin: 50px 0;
+    max-height: 60px;
     background-color: lightgray;
 }
-#flag{
-    max-height: 60px;
-    max-width: 120px;
-}
 nav img{
-    width: 200px;
-    height: 60px;
-    object-fit: none;
-    object-position: -10px -110px;
-    display: inline-block;
+    margin-right: 10pc;
+    max-height: 60px;
 }
 nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
-
 nav ul li {
     display:inline-block;
     background-color: lightgray;
 }
-
 nav a {
-    display:block;
+    display:inline-block;
     padding:0 10px;
     color:#1a1a1a;
     font-size:20px;
     line-height: 60px;
     text-decoration:none;
 }
-
 nav a:hover {
     color: #00205b;
     font-weight: bold;
-
-
 }
-
-
 nav ul ul {
     display: none;
     position: absolute;
-    top: 60px; /* the height of the main nav */
+    top: 60px;
 }
-
 nav ul li:hover > ul {
     display:inherit;
+    margin-left: -40px;
 }
-
 nav ul ul li {
     width:170px;
     float:none;
@@ -69,10 +58,26 @@ nav ul ul li {
     position: relative;
 }
 
+/* Header Styling */
 
-/* Change this in order to change the Dropdown symbol */
-li > a:after { content:  ''; }
-li > a:only-child:after { content: ''; }
-#container {
-    margin: 0 auto;
+Header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+h1{
+    font-size: 4.8rem;
+    font-family: BhuTuka Expanded One, open-serif, serif;
+}
+header p{
+    font-size: 1rem;
+}
+header img{
+    width: 100%;
+}
+#header-text-container{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    max-width: 30%;
 }

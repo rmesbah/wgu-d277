@@ -85,3 +85,19 @@ header img{
     border-bottom-right-radius: 20px;
     padding: 0px 20px 20px 20px;
 }
+
+/*Article Styling */
+
+article{
+
+}
+
+/*Aside Styling*/
+Aside{
+
+}
+Aside .attribution{
+    font-size: .8rem;
+    font-style: italic;
+    color: RGB(80,80,80)
+}

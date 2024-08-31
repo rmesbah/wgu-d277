@@ -11,79 +11,155 @@
     <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav>
-    <img src="assets/Flag_of_Texas.png" alt="The Texas state flag"/>
-    <ul class="menu">
-        <li><a href="index.html">Texas</a></li>
-        <li>
-            <!-- First Tier Drop Down -->
-            <label for="dropdown" class="toggle">Places</label>
-            <a href="#">Places</a>
-            <input type="checkbox" id="dropdown"/>
-            <ul>
-                <li><a href="austin.html">Austin</a></li>
-                <li><a href="la_grange.html">La Grange</a></li>
-                <li><a href="terlingua.html">Terlingua</a></li>
-                <li><a href="marfa.html">Marfa</a></li>
+    <main>
+        <nav>
+            <img src="assets/Flag_of_Texas.png" alt="The Texas state flag"/>
+            <ul class="menu">
+                <li><a href="index.html">Texas</a></li>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="dropdown" class="toggle">Places</label>
+                    <a href="#">Places</a>
+                    <input type="checkbox" id="dropdown"/>
+                    <ul>
+                        <li><a href="austin.html">Austin</a></li>
+                        <li><a href="la_grange.html">La Grange</a></li>
+                        <li><a href="terlingua.html">Terlingua</a></li>
+                        <li><a href="marfa.html">Marfa</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html#">Contact Us</a></li>
             </ul>
-        </li>
-        <li><a href="contact.html#">Contact Us</a></li>
-    </ul>
-</nav>
-<header>
-    <img class="header-img" src="assets/bluebonnets.png" alt="a field of bluebonnets">
-    <div id="header-text-container">
-        <h1 class="header-text-h1">Texas</h1>
-        <p class="header-text-body">Howdy y'all. From Big Thicket to Big Bend, the blackland prairies to the coastal plains, and every point in between, Texas has a little something for everyone. Keep exploring to learn more about this wonderful state.</p>
-    </div>
-</header>
-<article id="texas-art">
-    <div class="art-sec-1">
-        <h2>Welcome to Texas: Everything's Bigger Here!</h2>
-        <p>Howdy, partner! Welcome to Texas, where everything’s bigger, bolder, and brimming with excitement. Whether you’re exploring Houston’s dynamic energy, Austin’s quirky vibes, San Antonio’s historic charm, or Dallas’s cosmopolitan flair, Texas has a little something for everyone.</p>
-        <div class="inline-heading">
-            <h3>Explore Diverse Landscapes:</h3>
-            <p> From sun-scorched deserts to lush pine forests, and from rolling Hill Country hills to the Gulf Coast’s sandy shores, Texas’ vast landscapes will leave you in awe.</p>
-        </div>
-        <div class="inline-heading">
-            <h3>Feast on Flavor:</h3>
-            <p> Dive into mouthwatering barbecue, irresistible Tex-Mex, and down-home Southern cooking. Each region brings its own unique taste, so come hungry!</p>
-        </div>
-        <div class="inline-heading">
-            <h3>Rich History & Culture:</h3>
-            <p> Discover Texas’ colorful past at historic missions and museums, and soak up the local culture through lively festivals, music, and art.</p>
-        </div>
-        <div class="inline-heading">
-            <h3>Outdoor Fun:</h3>
-            <p> Hike through majestic national parks, enjoy water sports on sprawling lakes, or simply stargaze under the wide Texan sky.</p>
-        </div>
-        <p>Get ready to experience the legendary hospitality and endless adventures of the Lone Star State. Pack your bags and say “Howdy!” to Texas—where your next great story begins!</p>
+        </nav>
+        <header>
+            <img class="header-img" src="assets/bluebonnets.png" alt="a field of bluebonnets">
+            <div id="header-text-container">
+                <h1 class="header-text-h1">Texas</h1>
+                <p class="header-text-body">Howdy y'all. From Big Thicket to Big Bend, the blackland prairies to the coastal plains, and every point in between, Texas has a little something for everyone. Keep exploring to learn more about this wonderful state.</p>
+            </div>
+        </header>
+        <article class="texas-art">
+            <div class="art-top">
+                <div class="art-sec-1">
+                    <h2>Welcome to Texas: Everything's Bigger Here!</h2>
+                    <p>Howdy, partner! Welcome to Texas, where everything’s bigger, bolder, and brimming with excitement. Whether you’re exploring Houston’s dynamic energy, Austin’s quirky vibes, San Antonio’s historic charm, or Dallas’s cosmopolitan flair, Texas has a little something for everyone.</p>
+                    <div class="inline-heading">
+                        <h3>Explore Diverse Landscapes:</h3>
+                        <p> From sun-scorched deserts to lush pine forests, and from rolling Hill Country hills to the Gulf Coast’s sandy shores, Texas’ vast landscapes will leave you in awe.</p>
+                    </div>
+                    <br>
+                    <div class="inline-heading">
+                        <h3>Feast on Flavor:</h3>
+                        <p> Dive into mouthwatering barbecue, irresistible Tex-Mex, and down-home Southern cooking. Each region brings its own unique taste, so come hungry!</p>
+                    </div>
+                    <br>
+                    <div class="inline-heading">
+                        <h3>Rich History & Culture:</h3>
+                        <p> Discover Texas’ colorful past at historic missions and museums, and soak up the local culture through lively festivals, music, and art.</p>
+                    </div>
+                    <br>
+                    <div class="inline-heading">
+                        <h3>Outdoor Fun:</h3>
+                        <p> Hike through majestic national parks, enjoy water sports on sprawling lakes, or simply stargaze under the wide Texan sky.</p>
+                    </div>
+                    <p>Get ready to experience the legendary hospitality and endless adventures of the Lone Star State. Pack your bags and say “Howdy!” to Texas—where your next great story begins!</p>
+                </div>
+                <aside class="art-sec-2">
+                    <div class="aside-inner">
+                        <h2>Top 10 cities in Texas by population</h2>
+                        <ol>
+                            <li>Houston</li>
+                            <li>Dallas</li>
+                            <li>San Antonio</li>
+                            <li>Austin</li>
+                            <li>Fort Worth</li>
+                            <li>El Paso</li>
+                            <li>Arlington</li>
+                            <li>Corpus Christi</li>
+                            <li>Plano</li>
+                            <li>Lubbock</li>
+                        </ol>
+                        <p class="attribution">Source: <a target="_blank" href="https://www.texas-demographics.com/cities_by_population">Texas Demographics</a>.</p>
+                    </div>
+                </aside>
+            </div>
+            <div class="art-bottom">
+                <div class="table_1" role="region" tabindex="0">
+                    <table>
 
-
-
-    </div>
-    <div class="art-sec-2">
-
-    </div>
-    <aside class="art-sec-3">
-        <h2>Top 10 cities in Texas by population</h2>
-        <ol>
-            <li>Houston</li>
-            <li>Dallas</li>
-            <li>San Antonio</li>
-            <li>Austin</li>
-            <li>Fort Worth</li>
-            <li>El Paso</li>
-            <li>Arlington</li>
-            <li>Corpus Christi</li>
-            <li>Plano</li>
-            <li>Lubbock</li>
-        </ol>
-        <p class="attribution">Source: https://www.texas-demographics.com/cities_by_population, accessed 8/18/2024.</p>
-    </aside>
-</article>
-<section>
-
-</section>
+                        <caption>
+                            <h2>Important facts about Texas</h2>
+                            <p>Let's compare Texas to the rest of the United States of America.</p>
+                        </caption>
+                        <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Texas</th>
+                            <th>USA</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Population Density (per sq mi, per <a target="_blank" href="https://worldpopulationreview.com/state-rankings/state-densities">World Population Review</a>)</td>
+                            <td>119</td>
+                            <td>93</td>
+                        </tr>
+                        <tr>
+                            <td>GDP per capita (Q1 '23, per <a target="_blank" href="https://fred.stlouisfed.org/series/A939RX0Q048SBEA">Federal Reserve</a>)</td>
+                            <td>$84,040</td>
+                            <td>$66,096</td>
+                        </tr>
+                        <tr>
+                            <td>Median household income (Q4 '23, per BLS)</td>
+                            <td>$68,744</td>
+                            <td>$59,384</td>
+                        </tr>
+                        <tr>
+                            <td>Median home price (Q2 '24, per <a target="_blank" href="https://www.redfin.com/us-housing-market">Redfin</a>)</td>
+                            <td>$355,400&nbsp;</td>
+                            <td>$439,455</td>
+                        </tr>
+                        <tr>
+                            <td>The stars at night, are big and bright (Per my neighbor Dwight)</td>
+                            <td>Deep in the heart of Texas.</td>
+                            <td>Maybe. (Availability subject to change)</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+        <section class="city-cards-comp">
+            <div class="city-cards-inner">
+                <h2>Learn more about some of the amazing cities in Texas</h2>
+                <div class="city-card-cont">
+                    <div class="city-card">
+                        <img src="assets/justin-wallace-austin.png" alt="austin skyline at sunset">
+                        <h3>Austin</h3>
+                        <p>The vibrant and historic capitol of Texas.</p>
+                        <a href="austin.html" aria-label="Learn more about Austin Texas.">Explore More</a>
+                    </div>
+                    <div class="city-card">
+                        <img src="assets/terren-hurst-lagrange.png" alt="La Grange city street">
+                        <h3>La Grange</h3>
+                        <p>Come for the small town charm, stay for the hospitality.</p>
+                        <a href="la_grange.html" aria-label="Learn more about La Grange Texas">Explore More</a>
+                    </div>
+                    <div class="city-card">
+                        <img src="assets/tim-trad-marfa.png" alt="Prada Marfa">
+                        <h3>Marfa</h3>
+                        <p>An artsy town with mysterious lights.</p>
+                        <a href="marfa.html" aria-label="Learn more about Marfa Texas">Explore More</a>
+                    </div>
+                    <div class="city-card">
+                        <img src="assets/sam-goodgame-terlingua.png" alt="Big Bend Nation Park astrophotography">
+                        <h3>Terlingua</h3>
+                        <p>For those looking to get away from EVERYTHING.</p>
+                        <a href="terlingua.html" aria-label="Learn more about Terlingua Texas">Explore More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

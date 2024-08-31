@@ -39,23 +39,15 @@ nav img {
 .toggle, #dropdown {
         display: none;
 }
-/* Giving a background-color to the nav container. */
 nav {
     margin:0;
     padding: 0;
 }
-
-/* Since we'll have the "ul li" "float:left"
- * we need to add a clear after the container. */
-
 nav:after {
     content:"";
     display:table;
     clear:both;
 }
-
-/* Removing padding, margin and "list-style" from the "ul",
- * and adding "position:reltive" */
 nav ul {
     float: right;
     padding:0;
@@ -233,28 +225,37 @@ article p{
     max-width: 100%;
     padding: 40px 25px;
 }
-
+.city-cards-comp h2{
+    text-align: center;
+}
 .city-card-cont {
     display: inline-flex;
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: space-evenly;
 }
-
 .city-card {
-    max-width: 30%;
+    max-width: 44%;
+    min-width: 243px;
     text-align: center;
     margin: 2%;
     padding: 5%;
     border-radius: 20px;
     background-color: #dededf;
 }
-
 .city-card img {
     max-width: 100%;
     height: auto;
 }
+.city-card h3{
+    font-family: BhuTuka Expanded One, open-serif, serif;
+    font-size: 2.4rem;
+}
+/*footer*/
 
+footer{
+
+}
 /*Media Queries*/
 
 
@@ -298,7 +299,6 @@ article p{
         max-width: 194px;
         margin: 0 auto;
     }
-
 }
 @media all and (max-width: 522px) {
     #header-text-container {

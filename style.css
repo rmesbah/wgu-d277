@@ -236,7 +236,7 @@ article p{
 }
 .city-card {
     max-width: 44%;
-    min-width: 243px;
+    min-width: 330px;
     text-align: center;
     margin: 2%;
     padding: 5%;
@@ -297,7 +297,15 @@ footer ul li ul{
     min-height: 30px;
     align-content: center;
 }
-
+.foot-links{
+    min-width: 85px;
+}
+.foot-address{
+    min-width: 151px;
+}
+.foot-social{
+    min-width: 137px;
+}
 /*Media Queries*/
 
 
@@ -319,6 +327,9 @@ footer ul li ul{
     }
     .art-sec-2 {
         margin: 0px 35px 0px 15px;
+    }
+    .city-card h3{
+        font-size: 2rem;
     }
 }
 @media all and (max-width: 768px) {
@@ -342,7 +353,7 @@ footer ul li ul{
         margin: 0 auto;
     }
 }
-@media all and (max-width: 522px) {
+@media all and (max-width: 533px) {
     #header-text-container {
         max-width: 100%;
     }
@@ -354,6 +365,21 @@ footer ul li ul{
     header img {
         min-height: 200px;
     }
+    .city-card{
+        min-width: 250px;
+    }
+    .foot-links{
+        order: 1;
+    }
+    .foot-social{
+        order: 2;
+    }
+    .foot-address {
+        order: 3;
+    }
+    .foot-inner{
+        gap: 0px 20px;
+    }
 }
 @media all and (max-width: 465px) {
     nav li a {
@@ -363,6 +389,7 @@ footer ul li ul{
     nav img {
         display: none;
     }
+
 }
 
 

@@ -251,6 +251,50 @@ article p{
     font-family: BhuTuka Expanded One, open-serif, serif;
     font-size: 2.4rem;
 }
+/*City page copy*/
+
+.city-art{
+    padding: 40px 35px;
+}
+.city-flex{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+    border: 1px solid red;
+    align-items: center;
+}
+.city-copy-top{
+    width: 100%;
+    order: 1;
+}
+.city-copy-bottom{
+    max-width: 65%;
+    order: 1;
+}
+/*Aside Styling*/
+.city-aside{
+    width: 30%;
+    min-width: 256px;
+    order: 2;
+}
+.ca-inner{
+    border-radius: 20px;
+    background-color: rgb(0, 32, 91);
+    padding: 15px;
+    color: oldlace;
+}
+.ca-inner h2{
+    padding-bottom: 20px;
+    Margin: 0px;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
 /*footer*/
 
 footer{
@@ -352,6 +396,17 @@ footer ul li ul{
         max-width: 194px;
         margin: 0 auto;
     }
+    .city-flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .city-aside{
+        order: 1;
+    }
+    .city-copy-bottom{
+        order: 2;
+        max-width: 100%;
+    }
 }
 @media all and (max-width: 533px) {
     #header-text-container {
@@ -388,6 +443,9 @@ footer ul li ul{
 
     nav img {
         display: none;
+    }
+    .city-art{
+        padding: 32px 15px 32px 15px;
     }
 
 }

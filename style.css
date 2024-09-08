@@ -114,6 +114,9 @@ header img{
     height: auto;
     display: block;
 }
+.header-text-h1-contact{
+    color: #1a1a1a;
+}
 #header-text-container{
     position: absolute;
     top: 0;
@@ -288,8 +291,15 @@ article p{
     font-size: 1.8rem;
 }
 
+/*Contact Us*/
 
+form{
 
+}
+#email-error{
+    display: none;
+    color: red;
+}
 
 
 
@@ -378,6 +388,9 @@ footer ul li ul{
 @media all and (max-width: 768px) {
     main {
         width: 100%;
+    }
+    h1{
+        font-size: 3.8rem;
     }
 }
 @media all and (max-width: 600px) {

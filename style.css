@@ -260,7 +260,6 @@ article p{
     display: inline-flex;
     flex-wrap: nowrap;
     column-gap: 20px;
-    border: 1px solid red;
     align-items: center;
 }
 .city-copy-top{

@@ -502,6 +502,9 @@ footer ul li ul{
     .header-text-h1-contact{
         font-size: 2rem;
     }
+    textarea{
+        width: 160%;
+    }
 
 
 }
